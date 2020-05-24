@@ -1,0 +1,25 @@
+body {
+    margin-top: 5%;
+    background-color: rgba(51, 46, 73, 0.488);
+    position: absolute;
+
+    left: 50%;
+    
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#name {
+    border-radius: 10px;
+    background: blue;
+
+    left: 50%;
+}
+
+a {
+    border-radius: 20px;
+    background-color: blue;
+    color: aliceblue;
+    align-items: center;
+}
+
