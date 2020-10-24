@@ -29,6 +29,8 @@ a {
     text-align: center;
     margin: 5px;
     padding: 5px;
+    min-width: 48px;
+    min-height: 48px;
 }
 
 div {
