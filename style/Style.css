@@ -22,7 +22,7 @@ img, embed, object, video {
 
 }
 
-a {
+/* a {
     border-radius: 10px;
     background-color: blue;
     color: aliceblue;
@@ -31,13 +31,13 @@ a {
     padding: 5px;
     min-width: 48px;
     min-height: 48px;
-}
+} */
 
-div {
+/* div {
     align-self: start;
     text-align: right;
     padding-right: 10px;
-}
+} */
 
 img {
     padding-top: 1%;
