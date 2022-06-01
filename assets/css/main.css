@@ -3478,12 +3478,12 @@ body.is-preload #header.alt {
   background-size: cover;
   border-bottom: 0 !important;
   cursor: default;
-  height: 60vh;
   margin-bottom: -3.25em;
   max-height: 32em;
   min-height: 22em;
   position: relative;
   top: -3.25em;
+  height: 100vh;
 }
 
 #banner:after {
@@ -3501,7 +3501,7 @@ body.is-preload #header.alt {
   display: block;
   height: 75%;
   left: 0;
-  opacity: 0.85;
+  opacity: 0.75;
   position: absolute;
   top: 0;
   width: 100%;
@@ -3881,13 +3881,13 @@ body.is-preload #banner > .inner {
   height: 100%;
   left: 0;
   opacity: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 3em 2em;
   position: fixed;
   top: 0;
   visibility: hidden;
-  width: 100%;
   z-index: 10002;
+  width: 100%;
 }
 
 #menu .inner {
@@ -3903,14 +3903,14 @@ body.is-preload #banner > .inner {
   -ms-transform: rotateX(20deg);
   transform: rotateX(20deg);
   -webkit-overflow-scrolling: touch;
-  max-width: auto;
-  max-height: 85vh;
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 55vh;
   opacity: 0;
-  overflow: hidden;
   text-align: center;
   visibility: hidden;
-  width: 36em;
-  
+  width: 65vh;
+  height: 85vh;
 }
 
 #menu .inner > :first-child {
